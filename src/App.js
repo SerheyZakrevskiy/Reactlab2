@@ -1,11 +1,12 @@
-import React from 'react';
-import UseMediaQuery from "./components/useMediaQuery"
-
+import React from "react";
+import GeolocationComponent from "./components/GeolocationComponent.js";
 
 function App() {
   return (
-    <UseMediaQuery></UseMediaQuery>
-  )
+    <div>
+      <GeolocationComponent />
+    </div>
+  );
 }
 
 export default App;
